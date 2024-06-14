@@ -1,9 +1,9 @@
 # May be overwritten in .github/actions/hugo.yml 
 # when deploying to gh pages
-baseURL = 'https://YOURDOMAIN/'
+baseURL = 'https://osgeobrasil.github.io'
 languageCode = 'en-us'
-title = 'My Web Site'
-theme = 'hugo-bulma-blocks-theme'
+title = 'OSGeo Brasil'
+theme = 'hugo-bulma-blocks'
 # Default pagination.
 # Can override this when needed e.g. {{ range (.Paginator 5).Pages }}
 paginate = 50
