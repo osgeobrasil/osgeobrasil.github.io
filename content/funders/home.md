@@ -1,9 +1,9 @@
 ---
 level: "Medium"
-title: "Gispo Oy"
-logo: "home.png"
-startDate: "2024-03-01"
-endDate: "2025-02-28"
-link: "http://www.gispo.fi/en/home/"
+title: "Mystery Benefactor"
+logo: "Person3.png"
+startDate: "2022-02-01"
+endDate: "2023-02-28"
+link: "http://example.com/"
 country: "Finland"
 ---
