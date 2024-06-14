@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'Início'
 date: 2023-10-24
 type: landing
 
@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: Associação Brasileira de Geotecnologias Livres e de Código Aberto
+      text: 🧱 OSGeo Brasil | Local Chapter  🧱
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: FOSS4G 2024
+        url: https://2024.foss4g.org
         icon: rocket-launch
       secondary_action:
         text: Read the docs
         url: https://docs.hugoblox.com
       announcement:
-        text: "Announcing the release of version 1."
+        text: "Free and Open Source for Geospatial Conference"
         link:
-          text: "Read more"
-          url: "/blog/"
+          text: "Saiba mais"
+          url: "https://2024.foss4g.org"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -132,8 +132,8 @@ sections:
       title: Build your future-proof website
       text: As easy as 1, 2, 3!
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: FOSS4G 2024
+        url: https://2024.foss4g.org
     design:
       card:
         # Card background color (CSS class)
