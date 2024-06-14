@@ -1,101 +1,32 @@
-# QGIS Hugo Website
+# [Hugo Landing Page Theme](https://github.com/HugoBlox/theme-landing-page)
 
-![Screenshot](./img/hugo-preview.png)
+[![Screenshot](https://raw.githubusercontent.com/HugoBlox/theme-landing-page/main/.github/preview.webp)](https://hugoblox.com/templates/)
 
-By Tim Sutton and QGIS Contributors.
+The Hugo **Landing Page Template** empowers you to easily create startup websites, marketing websites, and landing pages to accelerate your business growth.
 
-## 🏃Before you start
+️**Trusted by 250,000+ creators, teams, and organizations.** Highly customizable via the integrated **no-code, block-based website builder**, making every site truly personalized ⭐⭐⭐⭐⭐
 
-This web site is a static site built using [Hugo](https://gohugo.io/).
+[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
+[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
+[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
 
-![Hugo Logo](./img/hugo-logo.png) and using the [hugo bulma blocks theme](https://github.com/kartoza/hugo-bulma-blocks-theme).
+[Check out the latest demo](https://theme-landing-page.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
 
-## 🛒 Getting the Code
+The integrated [**Hugo Blox**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
 
-development
-```
-git clone https://github.com/qgis/QGIS-Hugo.git
-cd QGIS-Hugo
-```
+- 👉 [**Get Started**](https://hugoblox.com/templates/)
+- 📚 [View the **documentation**](https://docs.hugoblox.com/)
+- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
+- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
+- 🐦 Share your new site with the community: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
+- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
+- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
+- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
 
-Clone the repo:
+## We ask you, humbly, to support this open source movement
 
-```
-git clone https://github.com/qgis/qgis-hugo.git
-```
+Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
 
-Run the site:
+We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
 
-Press ```Ctl-Shift-D``` then choose the following runner:
-
-'Run dev using locally installed Hugo'
-
-the click the green triangle next to  the runner to start it.
-
-Once the site is running, you can open it at:
-
-<http://localhost:1313>
-
-The site will automatically refresh any page you have open if you edit it and save your work. Magical eh?
-
-## 💮 Changing the templates
-
-| Page type       | Path                                     |
-| --------------- | ---------------------------------------- |
-| Landing Page    | themes/qgis/layouts/index.html           |
-| Top Level Pages | themes/qgis/layouts/_default/single.html |
-
-## 🏠 Editing the landing (home) page
-
-The layout of the landing page is themes/hugo-bulma-blocks-theme/layouts/index.html: the main page has many diverse blocks, that are not used anywhere else, hence its content is mostly in the partials.
-
-The ``content/_index.md`` contains the front matter of the page and the contents for the `feature` shortcodes. Just edit whatever you like there. The blocks shortcodes are described [here](https://github.com/qgis/QGIS-Hugo/blob/main/docs/shortcodes.md)
-
-
-## 📃 Adding a top level page
-
-### Create the content
-
-Content pages are stored in the ``content`` folder. The top level documents there will be rendered with the top level page theming.
-
-For example to add an about page, create ``content/about.md``
-
-The page will be accessible then at /about/
-
-### 🖼️ Referencing Images and Media
-
-Place images and media in ```static/img```. Everything in ```static``` is referenced
-from the top level of the site e.g.  ```static/img/foo.png``` would be referenced in
-markdown as ```/img/foo.png```.
-
-## 📦 Blocks Shortcodes
-
-The site uses a number of shortcodes to create reusable blocks of content. These are defined in the ```themes/hugo-bulma-blocks-theme/layouts/shortcodes/``` folder.
-
-The shortcodes with screenshots are described [here](https://github.com/qgis/QGIS-Hugo/blob/main/docs/shortcodes.md)
-
-<!-- 3rd level header with icon with title Reusable header web component -->
-### Reusable header web component
-
-TODO
-
-### Sidebar
-
-Sidebar is implemented in themes/hugo-bulma-blocks-theme/layouts/partials/sidebar.html
-
-Items are retrieved from config.toml under `[menu]` section. `weight` parameter defines the order of the item.
-
-To enable sidebar on the content page, use the following template:
-
-```
----
-type: "page"
-...
-sidebar: true
----
-{{< content-start  >}}
-
-... add content here ...
-
-{{< content-end  >}}
-```
+### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
