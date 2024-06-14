@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: indigo
+  color: zinc
 
 # SEO
 marketing:
@@ -39,15 +39,15 @@ header:
       filename: "logo.svg"
     button:
       enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
-    show_search: true
-    show_theme_chooser: true
+      text: "FOSS4G 2024"
+      url: "https://2024.foss4g.org"
+    show_search: false
+    show_theme_chooser: false
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} OSGeo Brasil'
 
 # Localization
 locale:
