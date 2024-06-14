@@ -1,16 +1,16 @@
 ---
 type: "page"
-title: "Spatial without Compromise"
-subtitle: "Spatial visualization and decision-making tools for everyone"
+title: "OSGeo Brasil"
+subtitle: "Associação Brasileira de Geotecnologias Livres e de Código Aberto"
 
 draft: false
 heroSize: "is-medium"
 heroLogo: "img/logosign.svg"
 HeroImage: "img/hegobg1.jpg"
 HasBanner: true
-ButtonText: "Download" 
-ButtonLink: "download/"
-SupportedOS: "Available on Windows, Mac, Linux"
+ButtonText: "FOSS4G" 
+ButtonLink: "[download/](https://2024.foss4g.org)"
+SupportedOS: "Free and Open Source for Geospatial Conference"
 LabelText: "Free and Open Source"
 ---
 
