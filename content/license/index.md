@@ -1,12 +1,11 @@
 ---
 type: "page"
-title: "License"
+title: "QGIS License"
 subtitle: ""
 draft: false
-heroImage: "img/banners/banner1.png"
 ---
 
-{{< content-start classes="notification is-light" >}}
+{{< content-start classes="content narrow">}}
 
 # GNU GENERAL PUBLIC LICENSE
 
@@ -290,6 +289,19 @@ POSSIBILITY OF SUCH DAMAGES.
 END OF TERMS AND CONDITIONS
 
 ------
+
+> In addition, as a special exception, the QGIS Development Team gives
+> permission to link the code of this program with the Qt library,
+> including but not limited to the following versions (both free and
+> commercial): Qt/Non-commercial Windows, Qt/Windows, Qt/X11, Qt/Mac, and
+> Qt/Embedded (or with modified versions of Qt that use the same license
+> as Qt), and distribute linked combinations including the two. You must
+> obey the GNU General Public License in all respects for all of the code
+> used other than Qt. If you modify this file, you may extend this
+> exception to your version of the file, but you are not obligated to do
+> so. If you do not wish to do so, delete this exception statement from
+> your version.
+
 
 ## How to Apply These Terms to Your New Programs
 

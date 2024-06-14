@@ -14,7 +14,7 @@ body:
     attributes:
       label: URL
       description: URL where the bug was found
-      placeholder: https://[yourdomain].com/
+      placeholder: https://jupiterbroadcasting.com/
   - type: dropdown
     id: devices
     attributes:

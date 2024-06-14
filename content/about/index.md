@@ -1,14 +1,16 @@
 ---
 type: "page"
-title: "About"
-subtitle: ""
-draft: false
-heroImage: "img/banners/banner1.png"
----
+title: "QGIS - The Leading Open Source Desktop GIS"
+subtitle: "QGIS is a professional GIS application that is built on top of and proud to be itself Free and Open Source Software (FOSS)."
+draft: "true"
+heroImage: "img/banners/banner4.png"
+sidebar: true
 
+---
+{{< content-start >}}
 {{< block
     title="Mapping."
-    subtitle="Unleash your creativity and experiene our software.."
+    subtitle="Unleash your creativity and experience first class cartographic design capabilities and design great maps for digital and print."
     image=""
     sub-block-side="left"
     class="is-primary1"    
@@ -16,15 +18,15 @@ heroImage: "img/banners/banner1.png"
 
 {{< block
     title="Editing."
-    subtitle="Simple and sophisticated tools."
+    subtitle="Simple and sophisticated tools for efficiently capturing geospatial data."
     image=""
     sub-block-side="left"
     class="is-primary2"    
 >}}{{< /block >}}
 
 {{< block
-    title="Process & Analize."
-    subtitle="Powerful tools for computational analysis at your fingertips."
+    title="Process & Analyze."
+    subtitle="Powerful tools for geospatial computational analysis at your fingertips."
     image=""
     sub-block-side="left"
     class="is-primary3"    
@@ -32,7 +34,7 @@ heroImage: "img/banners/banner1.png"
 
 {{< block
     title="Sharing."
-    subtitle="Reach a global audience online with your information products. Powered by Our Software."
+    subtitle="Reach a global audience online with your amazing maps and spatial information products. Powered by QGIS."
     image=""
     sub-block-side="left"
     class="is-primary4"    
@@ -40,9 +42,9 @@ heroImage: "img/banners/banner1.png"
 
 {{< block
     title="Behind the scenes."
-    subtitle="Leverage the work and experience of some the world’s top experts and developers. Use their creations to achieve your project goals."
+    subtitle="Leverage the work and experience of some the world’s top geospatial experts and developers. Use their creations to achieve your project goals."
     image=""
     sub-block-side="left"
     class="is-primary5"   
 >}}{{< /block >}}
-
+{{< content-end >}}

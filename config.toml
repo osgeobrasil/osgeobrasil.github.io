@@ -1,9 +1,8 @@
-# May be overwritten in .github/actions/hugo.yml 
-# when deploying to gh pages
-baseURL = 'https://osgeobrasil.github.io'
+# May be overwritten in .github/workflows/github-pages.yml
+baseURL = 'https://qgis.org/'
 languageCode = 'en-us'
-title = 'OSGeo Brasil'
-theme = 'hugo-bulma-blocks'
+title = 'QGIS Web Site'
+theme = 'hugo-bulma-blocks-theme'
 # Default pagination.
 # Can override this when needed e.g. {{ range (.Paginator 5).Pages }}
 paginate = 50
@@ -25,20 +24,23 @@ staticDir = ['static']
 
 [params]
 # Brand colours:
-primary1 = "#a7cecb"
+primary1 = "#589632"
 primary2 = "#55828b"
 primary3 = "#395c6b"
-primary4 = "#285238"
-primary5 = "#589632"
-primary1-invert = "#444444"
+primary4 = "#EEE766"
+primary5 = "#93B023"
+primary6 = "#ee7913"
+primary1-invert = "#fff"
 primary2-invert = "#eeeeee"
 primary3-invert = "#eeeeee"
-primary4-invert = "#eeeeee"
+primary4-invert = "#363636"
 primary5-invert = "#eeeeee"
+primary6-invert = "#fff"
+links = "#3A9800"
 # TODO update these to gradient colours like above
-complementary1 = "#589632"
+complementary1 = "#93B023"
 complementary2 = "#ee7913"
-complementary3 = "#f0e64a"
+complementary3 = "#EEE766"
 complementary4 = "#93b023"
 complementary5 = "#a7cecb"
 complementary6 = "#589732"
@@ -46,22 +48,29 @@ complementary7 = "#93B022"
 complementary8 = "#385C6B"
 light1 = "#fbfbfb"
 light2 = "#eeeeee"
-dark1 = "#999999"
-dark2 = "#444444"
+light3 = "#E7E7E7"
+dark1 = "#808080"
+dark2 = "#000"
+text-primary1 = "#002033"
+text-primary2 = "#4D6370"
 # Bulma specific colours based on our branding
+black = "#000"
+white = "#ffffff"
 grey-dark = "#444444"
-grey-light = "#eeeeee"
+grey-darker = "#363636"
+grey-light = "#d4d4d4"
 primary = "#a7cecb"
 danger = "#ee7913"
 info = "#93b023"
 success = "#589632"
-warning = "#f0e64a"
+warning = "#EEE766"
 link = "#ee7913"
 # Brand fonts to override bulma font families
-heading-font = "'Montserrat', sans-serif"
-text-font = "'Work Sans', sans-serif"
+heading-font = "'Trueno', sans-serif"
+text-font = "'Trueno', sans-serif"
 fancy-font = "'Sevillana', cursive"
-menuFontClass = "is-size-7"
+
+menuFontClass = "is-size-6"
 ## Gh repo for site footer (include trailing slash)
 githubUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/"
 ## GH Repo for filing a new issue
@@ -70,6 +79,18 @@ githubIssueUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/issues/new/
 githubEditUrl = "https://github.com/kartoza/hugo-bulma-blocks-theme/edit/main"
 ### Radius for boxes
 corner-radius = "0px"
+
+## Url to navigation web component
+uniNavHeaderUrl = 'https://qgis.github.io/qgis-uni-navigation/index.js'
+uniNavHeaderLocationPrefix = "/QGIS-Hugo"
+
+## Url to news feed. After URL change you have to check 
+## themes/hugo-bulma-blocks-theme/layouts/partials/contextmenu.html 
+## file to ensure that it adresses the correct keys 
+newsfeed ='https://feed.qgis.org/?lang=en&json=1'
+
+## This will turn on Coockie popup. True to show popup
+cookiesstate = false
 
 # This will cause html in markdown files to be rendered directly
 [markup]
@@ -89,125 +110,338 @@ corner-radius = "0px"
       tabWidth = 4
       noClasses = false
       style = "monokai"
+    
+[markup.tableOfContents]
+      endLevel = 3
+      ordered = false
+      startLevel = 2
 
 
+sectionPagesMenu = 'main'
 # See https://gohugo.io/content-management/menus/
 [menu]
 [[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = -110
+  name = "Project"
+  url = "/project/overview"
+  weight = 10
   #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
 
 [[menu.main]]
+  parent = "Project"
+  name = "Overview"
+  url = "/project/overview/"
+  weight = 10
+
+
+
+[[menu.main]]
+  parent = "Project"
+  name = "Case studies"
+  url = "/project/case-studies/"
+  weight = 20
+
+[[menu.main]]
+  parent = "Overview"
+  name = "Maps"
+  url = "/project/overview/maps/"
+  weight = 30
+
+[[menu.main]]
+  parent = "Overview"
+  name = "Screenshots"
+  url = "/project/overview/screenshots/"
+  weight = 30  
+
+[[menu.main]]
+  parent = "Project"
+  name = "Plugins"
+  url = "https://plugins.qgis.org"
+  weight = 30
+
+[[menu.main]]
+  parent = "Project"
+  name = "Visual Changelogs"
+  url = "/project/visual-changelogs"
+  weight = 40
+
+
+[[menu.main]]
   name = "Community"
-  url = "/community/"
-  weight = -110 # Sets the menu order
-  #pre = "<i class='fa-solid fa-people-group mr-1'></i>"
+  url = "/community/involve"
+  weight = 20
+
+[[menu.main]]
+  parent = "Community"
+  name = "Get involved"
+  url = "/community/involve"
+  weight = 10
+
+[[menu.main]]
+  parent = "Community"
+  name = "Certification Programme"
+  url = "/community/certification"
+  weight = 20
+
+[[menu.main]]
+  parent = "Community"
+  name = "QGIS Foundation"
+  url = "/community/foundation"
+  weight = 30
+
+[[menu.main]]
+  parent = "QGIS Foundation"
+  name = "Charter"
+  url = "/community/foundation/charter"
+  weight = 40
+
+[[menu.main]]
+  parent = "QGIS Foundation"
+  name = "Annual General Meetings"
+  url = "/community/foundation/annual_general_meetings"
+  weight = 50
+
+[[menu.main]]
+  parent = "QGIS Foundation"
+  name = "Annual Reports"
+  url = "/community/foundation/annual_reports"
+  weight = 60
+
+[[menu.main]]
+  parent = "QGIS Foundation"
+  name = "Finance"
+  url = "/community/foundation/finance"
+  weight = 70
+
+[[menu.main]]
+  parent = "Community"
+  name = "Project Organisation"
+  url = "/community/organisation"
+  weight = 80
+
+
+[[menu.main]]
+  parent = "Project Organisation"
+  name = "Infrastructure"
+  url = "/community/organisation/infrastructure"
+  weight = 100
+
+[[menu.main]]
+  parent = "Community"
+  name = "Local User Groups"
+  url = "/community/groups"
+  weight = 110
+
+
+
+[[menu.main]]
+  parent = "Project Organisation"
+  name = "Brand Guidelines"
+  url = "/community/organisation/guidelines"
+  weight = 130
+
+[[menu.main]]
+  parent = "Project Organisation"
+  name = "Contributor Credits"
+  url = "/community/organisation/credits"
+  weight = 140
+
+[[menu.main]]
+  parent = "Project Organisation"
+  name = "Meetings"
+  url = "/community/organisation/meetings"
+  weight = 180
+
+[[menu.main]]
+  parent = "Meetings"
+  name = "QGIS Developer Meetings"
+  url = "/community/organisation/meetings/dev_meetings"
+  weight = 190
+
+[[menu.main]]
+  parent = "Meetings"
+  name = "Reimbursements for Developer Meetings"
+  url = "/community/organisation/meetings/reimbursements"
+  weight = 200
+
+[[menu.main]]
+  parent = "Meetings"
+  name = "QGIS User Meetings"
+  url = "/community/organisation/meetings/user_meetings"
+  weight = 210
+
+[[menu.main]]
+  parent = "Project Organisation"
+  name = "Mailing Lists"
+  url = "/community/organisation/mailinglists"
+  weight = 220
+  
+[[menu.main]]
+  parent = "Community"
+  name = "Members Blogs"
+  url = "https://plugins.qgis.org/planet/"
+  weight = 280
 
 [[menu.main]]
   name = "Resources"
-  url = "/hub/"
-  weight = -110 # Sets the menu order
+  url = "/resources/hub"
+  weight = 40 # Sets the menu order 
   #pre = "<i class='fa-solid fa-handshake-angle mr-1'></i>"
 
 [[menu.main]]
-  name = "Download"
-  url = "/download/download/"
-  #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
-  weight = -110 # Sets the menu order
+  parent = "Resources"
+  name = "Documentation"
+  url = "/resources/hub"
+  weight = 5 # Sets the menu order 
+  #pre = "<i class='fa-solid fa-handshake-angle mr-1'></i>"  
 
 [[menu.main]]
-  name = "Value"
-  url = "/value-proposition/"
-  #pre = "<i class='fa fa-heart mr-1'></i>"
-  weight = -110 # Sets the menu order
+  name = "Download"
+  url = "/download/"
+  #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
+  weight = 60 # Sets the menu order 
+
+[[menu.main]]
+  name = "Funding"
+  url = "/funding/donate"
+  #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
+  weight = 50 # Sets the menu order 
+
+[[menu.main]]
+  parent = "Funding"
+  name = "Donate"
+  url = "/funding/donate"
+  #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
+  weight = 30 # Sets the menu order 
+
+[[menu.main]]
+  parent = "Funding"
+  name = "Membership"
+  url = "/funding/membership"
+  weight = 230
+
+[[menu.main]]
+  parent = "Membership"
+  name = "Members"
+  url = "/funding/membership/members"
+  weight = 240
+
+
+[[menu.main]]
+  parent = "Membership"
+  name = "Past Members"
+  url = "/funding/membership/past_members"
+  weight = 260
+
+[[menu.main]]
+  parent = "Donate"
+  name = "Donors"
+  url = "/funding/donate/donors"
+  weight = 270
 
 # Submenus are done this way: parent -> identifier
 [[menu.main]]
   parent = "Resources"
-  name = "Showcase"
-  url = "/showcase/overview/"
-  weight = -120
-  #pre = "<i class='fa-brands fa-windows mr-1'></i>"
+  name = "Installation guide"
+  url = "/resources/installation-guide/"
+  weight = 10
+
 
 [[menu.main]]
   parent = "Resources"
-  name = "Documentation"
-  url = "/documentation/overview/"
-  weight = -120
-  #pre = "<i class='fa-brands fa-windows mr-1'></i>"
+  name = "Releases"
+  url = "/resources/releases/"
+  weight = 30
+
+[[menu.main]]
+  parent = "Resources"
+  name = "Testing"
+  url = "/resources/testing/"
+  weight = 30
 
 [[menu.main]]
   parent = "Resources"
   name = "Roadmap"
-  url = "/roadmap/roadmap/"
-  weight = -110
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
+  url = "/resources/roadmap/"
+  weight = 40
 
 [[menu.main]]
   parent = "Resources"
-  name = "License"
-  url = "/license/"
-  weight = -10
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
+  name = "Reports"
+  url = "/resources/reports/"
+  weight = 50
 
-[[menu.documentation]]
-  name = "Documentation"
-  url = "/documentation/overview/"
-  weight = -110
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
-  [menu.documentation.params]
-    submenu = "documentation"
+[[menu.main]]
+  parent = "Reports"
+  name = "OGC Certification"
+  url = "/resources/reports/#ogc-certification"
+  weight = 60
 
-[[menu.showcase]]
-  name = "Overview"
-  url = "/showcase/overview/"
-  weight = -150
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
-  [menu.showcase.params]
-    submenu = "showcase"
+[[menu.main]]
+  parent = "Reports"
+  name = "Performance"
+  url = "/resources/reports/#performance"
+  weight = 70
 
-[[menu.showcase]]
-  name = "Maps"
-  url = "/showcase/maps/"
-  weight = -110
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
-  [menu.showcase.params]
-    submenu = "showcase"
+[[menu.main]]
+  parent = "Reports"
+  name = "Security"
+  url = "/resources/reports/#security"
+  weight = 80
 
-[[menu.showcase]]
-  name = "Screenshots"
-  url = "/showcase/screenshots/"
-  weight = -110
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
-  [menu.showcase.params]
-    submenu = "showcase"
+[[menu.main]]
+  parent = "Resources"
+  name = "Books"
+  url = "/resources/books/"
+  weight = 90
 
-[[menu.showcase]]
-  name = "Case Studies"
-  url = "/showcase/case-studies/"
-  weight = -110
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
-  [menu.showcase.params]
-    submenu = "showcase"
+[[menu.main]]
+  parent = "Resources"
+  name = "Support"
+  url = "/resources/support/"
+  weight = 100
 
-[[menu.showcase]]
-  name = "Blogs"
-  url = "/showcase/community-blogs/"
-  weight = -140
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
-  [menu.showcase.params]
-    submenu = "showcase"
+[[menu.main]]
+  parent = "Support"
+  name = "FAQ"
+  url = "/resources/support/faq"
+  weight = 110
 
-[[menu.showcase]]
-  name = "User Group News"
-  url = "/showcase/user-group-events/"
-  weight = -150
-  #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
-  [menu.showcase.params]
-    submenu = "showcase"
+[[menu.main]]
+  parent = "Support"
+  name = "Bug Reporting"
+  url = "/resources/support/bug-reporting"
+  weight = 120
 
+[[menu.main]]
+  parent = "Support"
+  name = "Communication channels"
+  url = "/resources/support/#communication-channels"
+  weight = 130
+
+[[menu.main]]
+  parent = "Support"
+  name = "Commercial support"
+  url = "/resources/support/commercial-support"
+  weight = 140
+
+[[menu.main]]
+  parent = "Support"
+  name = "StackExchange"
+  url = "/resources/support/#stackexchange"
+  weight = 160
+
+
+[[menu.main]]
+  parent = "Resources"
+  name = "Blog"
+  url = "https://blog.qgis.org/"
+  weight = 180
+
+[[menu.main]]
+  parent = "Support"
+  name = "Security"
+  url = "/resources/support/security"
+  weight = 190
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

@@ -11,11 +11,11 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-    - name: '🛒 Checkout Hugo Project'
+    - name: '🛒 Checkout QGIS Hugo'
       uses: actions/checkout@v3
       with:
         ref: main
-        path: ./CHANGE-TO-YOUR-REPO-NAME
+        path: ./qgis-hugo
 
     - name: '🐍 Setup Python'
       uses: actions/setup-python@v3
@@ -26,19 +26,25 @@ jobs:
 
     - name: '🚸Install Python deps'
       run: |
-        cd ./CHANGE-TO-YOUR-REPO-NAME
+        cd ./qgis-hugo
         pip install pipenv && pipenv install -r REQUIREMENTS.txt && pipenv sync --bare
         pipenv run pip freeze
 
     - name: '🗞️ Fetch Feed Content'
       run: |
-        cd ./CHANGE-TO-YOUR-REPO-NAME
+        cd ./qgis-hugo
         pipenv run pip freeze
         pipenv run ./fetch_feeds.py
+
+    - name: '📅 Update roadmap'
+      run: |
+        cd ./qgis-hugo
+        pipenv run pip freeze
+        pipenv run python ./scripts/update-schedule.py
 
     - name: '✉️ Commit'
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: 'Funders scraped and committed via a GitHub Action.'
-        repository: ./CHANGE-TO-YOUR-REPO-NAME
+        repository: ./qgis-hugo
         # push_options: --force

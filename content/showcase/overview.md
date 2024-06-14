@@ -2,20 +2,22 @@
 type: "page"
 title: "Gallery"
 subtitle: "Amazing work from our community"
-draft: false
+draft: "true"
 heroImage: "img/banners/banner3.png"
+HasBanner: true
 # Which second level menu to show
+sidebar: true
 submenus: showcase
 ---
 
 {{< content-start >}}
 
-# Welcome to the showcase
+# Welcome to the QGIS Showcase
 
-Our software is an incredibly powerful toolset, capable of a range of diverse functionality. In this showcase you can discover some the capabilities and the work and stories of users from around the world who have applied our software to help achieve their goals.
+QGIS is an incredibly powerful toolset, capable of a range of diverse functionality. In this showcase you can discover some the capabilities of QGIS and the work and stories of users from around the world who have applied QGIS to help achieve their goals.
 
-Name | Description
-------|-------------
+| Name | Description |
+| ---- | ----------- |
 {{< button
 fullwidth = "true"
 icon = "fa-solid fa-calendar"
@@ -27,25 +29,25 @@ fullwidth = "true"
 icon = "fa-solid fa-blog"
 class = "is-success"
 link = "showcase/community-blogs/"
-text = "Blogs" >}} | Blog articles related from members of our community.
+text = "QGIS Blogs" >}} | Blog articles related to QGIS from members of our community.
 {{< button
 fullwidth = "true"
 icon = "fa-solid fa-person"
 class = "is-success"
 link = "showcase/case-studies/"
-text = "Case Studies" >}} | Case studies of our software being applied to real world problems.
+text = "Case Studies" >}} | Case studies of QGIS being applied to real world problems.
 {{< button
 fullwidth = "true"
 icon = "fa-solid fa-map"
 class = "is-success"
 link = "showcase/maps/"
-text = "Maps" >}} | Amazing maps created using our software.
+text = "Maps" >}} | Amazing maps created using QGIS.
 {{< button
 fullwidth = "true"
 icon = "fa-solid fa-display"
 class = "is-success"
 link = "showcase/screenshots/"
-text = "Screenshots" >}} | Screenshots of our software in action.
+text = "Screenshots" >}} | Screenshots of QGIS in action.
 
 
 
