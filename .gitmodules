@@ -1,0 +1,3 @@
+[submodule "hugo-grafite"]
+	path = themes/hugo-grafite
+	url = https://github.com/rstudio/hugo-graphite.git
