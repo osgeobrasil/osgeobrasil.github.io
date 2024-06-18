@@ -14,7 +14,7 @@ twitter_image = "hex-tidyverse.png"
 custom_css = [""]
 
 # Define base hex url for index page (where the stickers link out to)
-hex_base_url = ".tidyverse.org"
+hex_base_url = ".osgeo.org"
 
 # Define "news" as both articles and events
 mainSections = ["articles", "events"]
@@ -35,15 +35,15 @@ MathJaxVersion = "2.7.1"
     image = "Color/RStudio-Education.png"
     width = 220.85
     height = 40
-    alt = "RStudio Education"
+    alt = "OSGeo Brasil"
 
 [footer]
-    github_url = "https://github.com/rstudio-education"
-    twitter_url = "https://twitter.com/hashtag/rstats"
+    github_url = "https://github.com/osgeobrasil"
+    twitter_url = "https://twitter.com/osgeobrasil"
     # Enter a copyright notice to display in the site footer.
     # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-    copyright = "&copy; [RStudio Inc.](https://www.rstudio.com/), {year}"
-    support = "Proudly supported by " # leave empty to remove support statement + RStudio logo
+    copyright = "&copy; [OSGeo Brasil](https://osgeobrasil.org.br), {year}"
+    support = "" # leave empty to remove support statement + RStudio logo
 
 # leave blank in quotes for the default = true
 # to turn off, set = false (no quotes)
