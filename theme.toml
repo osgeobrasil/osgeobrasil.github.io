@@ -1,15 +1,26 @@
-name = "Landing Page Builder"
+name = "graphite"
 license = "MIT"
-licenselink = "https://github.com/HugoBlox/theme-landing-page/blob/main/LICENSE.md"
-description = "Easily build your landing page with pre-designed blocks. Create beautiful startup websites, marketing websites, and landing pages to accelerate your business growth."
+licenselink = "https://github.com/rstudio/hugo-graphite/blob/master/LICENSE.md"
+description = "A simple responsive blog theme for Hugo forked from versions by Jonathan Rutheiser and Yihui Xie, with modifications to make it work better for teams."
+homepage = ""
+min_version = "0.71.1"
+tags = ["teams",
+        "responsive",
+        "blog",
+        "minimal"
+        ]
+features = ["blog",
+            "events",
+            "authors"
+            ]
 
-homepage = "https://github.com/HugoBlox/theme-landing-page"
-demosite = "https://theme-landing-page.netlify.app/"
+authors = [
+  {name = "Alison Hill", homepage = "https://alison.rbind.io/"},
+  {name = "Desirée De Leon", homepage = "https://desiree.rbind.io"}
+]
 
-tags = ["landing", "docs", "blog", "responsive", "minimal", "light", "dark", "multilingual", "dark mode", "tailwind", "company", "gallery"]
-features = ["secure", "fast", "search", "dark mode", "widgets"]
-
-# If the theme has a single author
-[author]
-  name = "George Cushen"
-  homepage = "https://georgecushen.com/"
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

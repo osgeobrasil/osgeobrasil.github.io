@@ -1,1 +1,6 @@
-resources/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+exampleSite/public
