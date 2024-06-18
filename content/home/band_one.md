@@ -1,17 +1,17 @@
 ---
 title: "OSGeo Brasil"
 col0:
-  row1: "dplyr"
-  row2: "ggplot2"
-  row3: "readr"
+  row1: "QGIS"
+  row2: "GRASS GIS"
+  row3: "SAGA GIS"
 col1:
-  row2: "forcats"
-  row3: "stringr"
+  row2: "PostGIS"
+  row3: "DuckDB"
 col2:
-  row2: "tibble"
-  row3: "tidyr"
-  row4: "purrr"
+  row2: "Python"
+  row3: "Rstats"
+  row4: "Javascript"
 ---
 
-Associação Brasileira de Geotecnologias Livres e de Código Aberto (ABRGEO)
+Associação Brasileira de Geotecnologias Livres e de Código Aberto (ABRGEO)/
 Organização da Sociedade Civil (OSC) Sem Fins Lucrativos
