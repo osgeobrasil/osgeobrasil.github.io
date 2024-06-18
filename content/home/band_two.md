@@ -1,6 +1,6 @@
 ---
 title: "FOSS4G 2024"
-image: cover.png
+image: foss4g-belem.svg
 alt_text: "Free and Open Source for Geospatial Conference"
 url_image: https://2024.foss4g.org
 ---
