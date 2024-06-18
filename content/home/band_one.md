@@ -1,5 +1,5 @@
 ---
-title: "Education @ RStudio"
+title: "OSGeo Brasil"
 col0:
   row1: "dplyr"
   row2: "ggplot2"
@@ -13,4 +13,5 @@ col2:
   row4: "purrr"
 ---
 
-Our mission is to equip everyone, regardless of means, to participate in a global economy that rewards data literacy.
+Associação Brasileira de Geotecnologias Livres e de Código Aberto (ABRGEO)
+Organização da Sociedade Civil (OSC) Sem Fins Lucrativos
