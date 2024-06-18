@@ -32,8 +32,8 @@ MathJaxVersion = "2.7.1"
 # Logo file relative to static/images/
 # to appear in upper navbar
 [logo]
-    image = "hugo-logo.png"
-    width = 220.85
+    image = "logo.png"
+    width = 200
     height = 40
     alt = "OSGeo Brasil"
 
