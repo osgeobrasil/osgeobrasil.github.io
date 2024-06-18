@@ -6,8 +6,8 @@ description = "The tidyverse is an integrated collection of R packages designed 
 copy_clipboard = true
 
 # Default image for social sharing and search engines. Place image in `static/images/` folder and specify image name here.
-sharing_image = "tidyverse-default.png"
-twitter_image = "hex-tidyverse.png"
+# sharing_image = "tidyverse-default.png"
+# twitter_image = "hex-tidyverse.png"
 
 # Link custom CSS and JS assets
 #   (relative to /static/css and /static/js respectively)
@@ -32,14 +32,14 @@ MathJaxVersion = "2.7.1"
 # Logo file relative to static/images/
 # to appear in upper navbar
 [logo]
-    image = "Color/RStudio-Education.png"
+    image = "hugo-logo.png"
     width = 220.85
     height = 40
     alt = "OSGeo Brasil"
 
 [footer]
     github_url = "https://github.com/osgeobrasil"
-    twitter_url = "https://twitter.com/osgeobrasil"
+    # twitter_url = "https://twitter.com/osgeobrasil"
     # Enter a copyright notice to display in the site footer.
     # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
     copyright = "&copy; [OSGeo Brasil](https://osgeobrasil.org.br), {year}"
