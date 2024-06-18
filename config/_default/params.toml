@@ -68,7 +68,7 @@ MathJaxVersion = "2.7.1"
     link = "#4254A7"
     link_hover = "#4254A7"
     # Footer
-    footer_primary = "#4254a730"
+    footer_primary = "#3cb371"
     footer_text = "#4254A7"
     # Backgrounds
     background = "white"
@@ -113,7 +113,7 @@ MathJaxVersion = "2.7.1"
     color = "#f6b73c"
     
 [hexes]
-    thin_hex = true
+    thin_hex = false
 
 [borders]
 # For thin lines on Navbar, Table of contents divider, band borders, etc.
