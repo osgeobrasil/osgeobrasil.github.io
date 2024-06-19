@@ -4,12 +4,12 @@
 [[main]]
     name = "Blog"
     url = "/blog/"
-    weight = 2
+    weight = 1
 [[main]]
     name = "Tutorials"
     url = "/start/"
-    weight = 3
+    weight = 2
 [[main]]
-    name = "Help"
-    url = "/help/"
-    weight = 5
+    name = "Wiki"
+    url = "https://wiki.osgeo.org/wiki/Brasil"
+    weight = 3
