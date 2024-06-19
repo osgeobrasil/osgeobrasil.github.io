@@ -1,9 +1,10 @@
 ---
-title: "Learn the tidyverse"
+title: "FOSS4G 2024"
 image: cover.png
-alt_text: "R for Data Science book cover"
-url_image: http://amzn.to/2aHLAQ1
+alt_text: "FOSS4G 2024"
+url_image: https://2024.foss4g.org
 ---
 
-See how the tidyverse makes data science faster, easier and more fun with "R for Data Science". Read it [online](http://r4ds.had.co.nz/), buy [the book](http://amzn.to/2aHLAQ1) or try another [resource](/learn/) from the community.
+Free and Open Source for Geospatial Conference (FOSS4G)
    
+Belém (PA), Brasil. 2024
