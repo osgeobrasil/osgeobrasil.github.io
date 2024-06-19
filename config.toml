@@ -1,8 +1,8 @@
 baseURL = "/"
 themesDir = "themes"
-theme = "hugo-serif-theme"
+theme = "hugo-serif"
 languageCode = "en-us"
-title = "Hugo Serif Theme"
+title = "OSGeo Brasil"
 
 [module]
   [module.hugoVersion]
