@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "title": "OSGeo",
+    "description": "The Open Source Geospatial Foundation",
+    "image": "images/features/logo-osgeo.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "title": "QGIS Brasil",
+    "description": "Comunidade QGISBrasil",
+    "image": "images/features/mini_qgis_brasil_original.webp"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "GeoNodeBR",
+    "description": "Comunidade de usuários e desenvolvedores de GeoNode do Brasil",
+    "image": "images/features/132843.png"
   }
 ]
