@@ -1,25 +1,21 @@
-baseurl = "http://yourdomain.com"
+baseurl = "/"
 languageCode = "en-us"
-title = "WidgetCo Inc"
+title = "OSGeo Brasil"
 canonifyUrls = "true"
 
 [params]
-    description = "The best widgets in the world!"
+    description = "Associação Brasileira de Geotecnologias Livres e de Código Aberto"
     custom_css = ["css/local.css"]
 
 [[params.social]]
     title = "email"
     icon = "envelope-o"
-    url = "mailto:bushbama@whitehouse.gov"
-[[params.social]]
-    title = "twitter"
-    icon = "twitter"
-    url = "https://twitter.com/SBootstrap"
+    url = "mailto:osgeobrasil@gmail.com"
 [[params.social]]
     title = "github"
     icon = "github"
-    url = "https://github.com/IronSummitMedia/startbootstrap"
+    url = "https://github.com/osgeobrasil"
 [[params.social]]
     title = "linkedin"
     icon = "linkedin"
-    url = "http://linkedin.com/in/yourusername"
+    url = "http://linkedin.com/in/osgeobrasil"
