@@ -10,4 +10,4 @@ intro_image_hide_on_mobile: true
 
 # OSGeo Brasil
 
-Associação Brsileira de Geotecnologias Livres e de Código Aberto
+Associação Brasileira de Geotecnologias Livres e de Código Aberto
