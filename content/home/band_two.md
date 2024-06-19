@@ -1,6 +1,6 @@
 ---
 title: "FOSS4G 2024"
-image: foss4g-belem.svg
+image: proposta_logo_vertical.png
 alt_text: "FOSS4G 2024"
 url_image: https://2024.foss4g.org
 ---
