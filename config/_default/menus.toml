@@ -6,6 +6,6 @@
     url = "/blog/"
     weight = 1
 [[main]]
-    name = "FOSS4G 2024"
+    name = "FOSS4G|2024"
     url = "https://2024.foss4g.org"
     weight = 2
