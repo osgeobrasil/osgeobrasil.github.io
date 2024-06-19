@@ -1,8 +1,6 @@
 ---
-title: "Need help?"
+title: "Wiki"
 image: "images/bee1.jpg"
 ---
 
-First learn how to make a [reprex](/help/#reprex) then [share it](/help/#where-to-ask) with others.
-
-   
+Para saber mais, acesse nossa [Wiki](https://wiki.osgeo.org/wiki/Brasil).
