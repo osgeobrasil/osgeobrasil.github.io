@@ -3,7 +3,7 @@ description = "The tidyverse is an integrated collection of R packages designed 
 
 # Enable copy-to-clipboard for all code?
 # Can also enable by content section in _index.md file
-copy_clipboard = true
+copy_clipboard = false
 
 # Default image for social sharing and search engines. Place image in `static/images/` folder and specify image name here.
 sharing_image = "tidyverse-default.png"
@@ -14,7 +14,7 @@ twitter_image = "hex-tidyverse.png"
 custom_css = [""]
 
 # Define base hex url for index page (where the stickers link out to)
-hex_base_url = ".tidyverse.org"
+hex_base_url = ".osgeo.org"
 
 # Define "news" as both articles and events
 mainSections = ["articles", "events"]
@@ -32,17 +32,17 @@ MathJaxVersion = "2.7.1"
 # Logo file relative to static/images/
 # to appear in upper navbar
 [logo]
-    image = "Color/RStudio-Education.png"
+    image = "osgeobr.png"
     width = 220.85
     height = 40
-    alt = "RStudio Education"
+    alt = "OSGeo Brasil"
 
 [footer]
-    github_url = "https://github.com/rstudio-education"
-    twitter_url = "https://twitter.com/hashtag/rstats"
+    github_url = "https://github.com/osgeobrasil"
+    twitter_url = "https://twitter.com/hashtag/osgeo"
     # Enter a copyright notice to display in the site footer.
     # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-    copyright = "&copy; [RStudio Inc.](https://www.rstudio.com/), {year}"
+    copyright = "&copy; [OSGeo Brasil](https://www.osgeobrasil.org.br), {year}"
     support = "Proudly supported by " # leave empty to remove support statement + RStudio logo
 
 # leave blank in quotes for the default = true
@@ -65,11 +65,11 @@ MathJaxVersion = "2.7.1"
 [colors]
     text = "#404040" # black
     # Links
-    link = "#4254A7"
-    link_hover = "#4254A7"
+    link = "0066ff"
+    link_hover = "3333ff"
     # Footer
-    footer_primary = "#4254a730"
-    footer_text = "#4254A7"
+    footer_primary = "#c7d7ca"
+    footer_text = "#124f85"
     # Backgrounds
     background = "white"
     home_section_odd = "white"
