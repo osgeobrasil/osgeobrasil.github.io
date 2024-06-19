@@ -2,16 +2,19 @@
   {
     "title": "OSGeo",
     "description": "The Open Source Geospatial Foundation",
+    "link": "https://www.osgeo.org",
     "image": "images/features/logo-osgeo.svg"
   },
   {
     "title": "QGIS Brasil",
     "description": "Comunidade QGISBrasil",
+        "link": "https://qgisbrasil.org",
     "image": "images/features/mini_qgis_brasil_original.webp"
   },
   {
     "title": "GeoNodeBR",
     "description": "Comunidade de usuários e desenvolvedores de GeoNode do Brasil",
+        "link": "https://geonode-br.github.io",
     "image": "images/features/132843.png"
   }
 ]
