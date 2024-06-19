@@ -6,8 +6,8 @@ description = "The tidyverse is an integrated collection of R packages designed 
 copy_clipboard = false
 
 # Default image for social sharing and search engines. Place image in `static/images/` folder and specify image name here.
-sharing_image = "tidyverse-default.png"
-twitter_image = "hex-tidyverse.png"
+sharing_image = "osgeobr.jpg"
+twitter_image = "osgeobr.jpg"
 
 # Link custom CSS and JS assets
 #   (relative to /static/css and /static/js respectively)
@@ -43,7 +43,7 @@ MathJaxVersion = "2.7.1"
     # Enter a copyright notice to display in the site footer.
     # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
     copyright = "&copy; [OSGeo Brasil](https://www.osgeobrasil.org.br), {year}"
-    support = "Proudly supported by " # leave empty to remove support statement + RStudio logo
+    support = "" # leave empty to remove support statement + RStudio logo
 
 # leave blank in quotes for the default = true
 # to turn off, set = false (no quotes)
@@ -96,8 +96,8 @@ MathJaxVersion = "2.7.1"
     # Import a Google font and styles, e.g. "@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');"
     # import = "@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');" 
     # font-family = "Lato"
-    import = "@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');"
-    font-family = "Libre Baskerville"
+    import = "@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');"
+    font-family = "Roboto"
 
 [capitalization]
 # Make particular headers "uppercase" or "lowercase"
