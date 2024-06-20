@@ -8,13 +8,18 @@
   {
     "title": "QGIS Brasil",
     "description": "Comunidade QGISBrasil",
-        "link": "https://qgisbrasil.org",
+    "link": "https://qgisbrasil.org",
     "image": "images/features/mini_qgis_brasil_original.webp"
   },
   {
     "title": "GeoNodeBR",
     "description": "Comunidade de usuários e desenvolvedores de GeoNode do Brasil",
-        "link": "https://geonode-br.github.io",
+    "link": "https://geonode-br.github.io",
     "image": "images/features/132843.png"
+  }
+  {
+    "name": "Github",
+    "link": "https://github.com/osgeobrasil",
+    "image": "images/social/github.svg"
   }
 ]
