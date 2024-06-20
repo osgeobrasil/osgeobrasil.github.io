@@ -33,11 +33,11 @@ title = "OSGeo Brasil"
     base = "Roboto"
 
   [params.colors]
-    primary = "#008751"
-    black = "#2f2f41"
+    primary = "#339966"
+    black = "#333333"
     white = "#ffffff"
     white_offset = "#f6f7ff"
-    grey = "#5C5A5A"
+    grey = "#666666"
 
   [params.seo]
     meta_twitter_site = "@zerostaticio"
@@ -74,6 +74,11 @@ title = "OSGeo Brasil"
     name = "Contato"
     url = "/contact/"
     weight = 4
+
+  [[menu.main]]
+    name = "Wiki"
+    url = "https://wiki.osgeo.org/wiki/Brasil"
+    weight = 5
 
   # Footer Menu
   [[menu.footer]]
