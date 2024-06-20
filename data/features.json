@@ -1,13 +1,13 @@
 [
   {
     "title": "OSGeo",
-    "link": "https://github.com/osgeobrasil",
+    "url": "https://github.com/osgeobrasil",
     "description": "The Open Source Geospatial Foundation",
     "image": "images/features/osgeo-emblem-rgb.png"
   },
   {
     "title": "QGIS Brasil",
-    "description": "Comunidade QGISBrasil",
+    "description": "Comunidade QGIS Brasil",
     "image": "images/features/mini_qgis_brasil_original.webp"
   },
   {
