@@ -1,52 +1,35 @@
 ---
-title: 'About'
+title: 'Sobre'
 date: 2018-02-22T17:01:34+07:00
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+A Associação Brasileira de Geotecnologias Livres e de Código Aberto - OSGEO Brasil, tem como finalidade principal promover o desenvolvimento e o uso de tecnologias geoespaciais livres, gratuitos e de código aberto no Brasil, alinhada com os objetivos da OSGeo globalmente.
 
 ![About Us](/images/smartworks-coworking-cW4lLTavU80-unsplash.jpg)
 
-## Ne verba patulosque numen vix libet
+## Situação Jurídica
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+A OSGEO Brasil nasceu oficialmente no dia 20 de março de 2024 com o nome Associação Brasileira de Geotecnologias Livres e de Código Aberto (CNPJ 54.415.184/0001-80)
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+## Propostas de Ação
+Algumas das ações que podem ser conduzidas pela OSGEO Brasil:
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+1. Localização das interfaces dos programas;
+2. Melhoria da documentação em português;
+3. Criação e desenvolvimento de 'expertise' nacional;
+4. Influenciar na adoção de geotecnologias livre nos governos;
+5. Influenciar nas políticas relacionadas á geoinformação, semelhante á iniciativa Public GeoData, em consonância com as diretrizes do Public Geospatial Data Committee, adaptado ás necessidades e realidades nacionais;
+6. Divulgação e promoção da OSGeo como um todo, consoante ás diretrizes do Promotion and Visibility Committee;
+7. Promover a adoção da educação em geotecnologias a partir dos softwares livres existentes, conforme o Education and Curriculum Committee, bem como participar da elaboração de uma proposta de currículo educacional em geotecnologias livres
+8. Documentação sobre Sistemas de Coordenadas Brasileiros (resultado de discussão na lista OSGeo Brasil)
 
-## Postquam tamen
+## Organizacao do Capitulo Brasil (OSGeo)
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+### Atividades
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+- Definição dos Membros Votantes: Todos os membros inscritos em Usuarios_Brasileiros
+- Eleição do Grupo Constituinte/Coordenacao Atribuicoes (PROPOSTAS E VOTACAO)
+  - Encontro Informal de Trabalho na GeoLivre - Troca de idéias
+  - Reformulação dos Objetivos e Missão do Capítulo, aprovação na lista.
+Definição de papéis e seleção de membros para desempenhá-los, aprovaçao na lista.
+- Criação de Grupos_De_Trabalho (PROPOSTAS E VOTACAO)
