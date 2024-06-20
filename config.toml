@@ -56,7 +56,7 @@ title = "OSGeo Brasil"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Serviços"
+    name = "Blog"
     url = "/services/"
     weight = 3
 
