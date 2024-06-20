@@ -1,6 +1,7 @@
 [
   {
     "title": "OSGeo",
+    "link": "https://github.com/osgeobrasil",
     "description": "The Open Source Geospatial Foundation",
     "image": "images/features/osgeo-emblem-rgb.png"
   },
