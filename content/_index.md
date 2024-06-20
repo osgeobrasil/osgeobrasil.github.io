@@ -11,3 +11,5 @@ intro_image_hide_on_mobile: true
 # OSGeo Brasil
 
 Associação Brasileira de Geotecnologias Livres e de Código Aberto
+
+Organização da Sociedade Civil (OSC) sem fins lucrativos
